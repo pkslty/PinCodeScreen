@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3622071627AF34F4003EAC24 /* PinCodeScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3622071527AF34F4003EAC24 /* PinCodeScreenApp.swift */; };
+		3622071827AF34F4003EAC24 /* PinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3622071727AF34F4003EAC24 /* PinCodeView.swift */; };
+		3622071A27AF34F9003EAC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3622071927AF34F9003EAC24 /* Assets.xcassets */; };
+		3622071D27AF34F9003EAC24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3622071C27AF34F9003EAC24 /* Preview Assets.xcassets */; };
+		3622072727AF34FA003EAC24 /* PinCodeScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3622072627AF34FA003EAC24 /* PinCodeScreenTests.swift */; };
+		3622073127AF34FA003EAC24 /* PinCodeScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3622073027AF34FA003EAC24 /* PinCodeScreenUITests.swift */; };
+		3622073327AF34FA003EAC24 /* PinCodeScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3622073227AF34FA003EAC24 /* PinCodeScreenUITestsLaunchTests.swift */; };
+		363E6F0C27B06FF70096FF73 /* PinCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E6F0B27B06FF70096FF73 /* PinCodeViewModel.swift */; };
+		363E6F0E27B13FEF0096FF73 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E6F0D27B13FEE0096FF73 /* UserDefault.swift */; };
+		363E6F1027B161D00096FF73 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E6F0F27B161D00096FF73 /* MainView.swift */; };
+		363E6F1227B2B0660096FF73 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E6F1127B2B0660096FF73 /* ShakeEffect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3622072327AF34FA003EAC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3622070A27AF34F4003EAC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3622071127AF34F4003EAC24;
+			remoteInfo = PinCodeScreen;
+		};
+		3622072D27AF34FA003EAC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3622070A27AF34F4003EAC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3622071127AF34F4003EAC24;
+			remoteInfo = PinCodeScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3622071227AF34F4003EAC24 /* PinCodeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinCodeScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3622071527AF34F4003EAC24 /* PinCodeScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeScreenApp.swift; sourceTree = "<group>"; };
+		3622071727AF34F4003EAC24 /* PinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeView.swift; sourceTree = "<group>"; };
+		3622071927AF34F9003EAC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3622071C27AF34F9003EAC24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3622072227AF34FA003EAC24 /* PinCodeScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3622072627AF34FA003EAC24 /* PinCodeScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeScreenTests.swift; sourceTree = "<group>"; };
+		3622072C27AF34FA003EAC24 /* PinCodeScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3622073027AF34FA003EAC24 /* PinCodeScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeScreenUITests.swift; sourceTree = "<group>"; };
+		3622073227AF34FA003EAC24 /* PinCodeScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		363E6F0B27B06FF70096FF73 /* PinCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeViewModel.swift; sourceTree = "<group>"; };
+		363E6F0D27B13FEE0096FF73 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		363E6F0F27B161D00096FF73 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		363E6F1127B2B0660096FF73 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3622070F27AF34F4003EAC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3622071F27AF34FA003EAC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3622072927AF34FA003EAC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3622070927AF34F4003EAC24 = {
+			isa = PBXGroup;
+			children = (
+				3622071427AF34F4003EAC24 /* PinCodeScreen */,
+				3622072527AF34FA003EAC24 /* PinCodeScreenTests */,
+				3622072F27AF34FA003EAC24 /* PinCodeScreenUITests */,
+				3622071327AF34F4003EAC24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3622071327AF34F4003EAC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3622071227AF34F4003EAC24 /* PinCodeScreen.app */,
+				3622072227AF34FA003EAC24 /* PinCodeScreenTests.xctest */,
+				3622072C27AF34FA003EAC24 /* PinCodeScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3622071427AF34F4003EAC24 /* PinCodeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3622071527AF34F4003EAC24 /* PinCodeScreenApp.swift */,
+				3622071727AF34F4003EAC24 /* PinCodeView.swift */,
+				363E6F0D27B13FEE0096FF73 /* UserDefault.swift */,
+				363E6F0B27B06FF70096FF73 /* PinCodeViewModel.swift */,
+				363E6F0F27B161D00096FF73 /* MainView.swift */,
+				363E6F1127B2B0660096FF73 /* ShakeEffect.swift */,
+				3622071B27AF34F9003EAC24 /* Preview Content */,
+				3622071927AF34F9003EAC24 /* Assets.xcassets */,
+			);
+			path = PinCodeScreen;
+			sourceTree = "<group>";
+		};
+		3622071B27AF34F9003EAC24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3622071C27AF34F9003EAC24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3622072527AF34FA003EAC24 /* PinCodeScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3622072627AF34FA003EAC24 /* PinCodeScreenTests.swift */,
+			);
+			path = PinCodeScreenTests;
+			sourceTree = "<group>";
+		};
+		3622072F27AF34FA003EAC24 /* PinCodeScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3622073027AF34FA003EAC24 /* PinCodeScreenUITests.swift */,
+				3622073227AF34FA003EAC24 /* PinCodeScreenUITestsLaunchTests.swift */,
+			);
+			path = PinCodeScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3622071127AF34F4003EAC24 /* PinCodeScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3622073627AF34FA003EAC24 /* Build configuration list for PBXNativeTarget "PinCodeScreen" */;
+			buildPhases = (
+				3622070E27AF34F4003EAC24 /* Sources */,
+				3622070F27AF34F4003EAC24 /* Frameworks */,
+				3622071027AF34F4003EAC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinCodeScreen;
+			productName = PinCodeScreen;
+			productReference = 3622071227AF34F4003EAC24 /* PinCodeScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3622072127AF34FA003EAC24 /* PinCodeScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3622073927AF34FA003EAC24 /* Build configuration list for PBXNativeTarget "PinCodeScreenTests" */;
+			buildPhases = (
+				3622071E27AF34FA003EAC24 /* Sources */,
+				3622071F27AF34FA003EAC24 /* Frameworks */,
+				3622072027AF34FA003EAC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3622072427AF34FA003EAC24 /* PBXTargetDependency */,
+			);
+			name = PinCodeScreenTests;
+			productName = PinCodeScreenTests;
+			productReference = 3622072227AF34FA003EAC24 /* PinCodeScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3622072B27AF34FA003EAC24 /* PinCodeScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3622073C27AF34FA003EAC24 /* Build configuration list for PBXNativeTarget "PinCodeScreenUITests" */;
+			buildPhases = (
+				3622072827AF34FA003EAC24 /* Sources */,
+				3622072927AF34FA003EAC24 /* Frameworks */,
+				3622072A27AF34FA003EAC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3622072E27AF34FA003EAC24 /* PBXTargetDependency */,
+			);
+			name = PinCodeScreenUITests;
+			productName = PinCodeScreenUITests;
+			productReference = 3622072C27AF34FA003EAC24 /* PinCodeScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3622070A27AF34F4003EAC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3622071127AF34F4003EAC24 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3622072127AF34FA003EAC24 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3622071127AF34F4003EAC24;
+					};
+					3622072B27AF34FA003EAC24 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3622071127AF34F4003EAC24;
+					};
+				};
+			};
+			buildConfigurationList = 3622070D27AF34F4003EAC24 /* Build configuration list for PBXProject "PinCodeScreen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3622070927AF34F4003EAC24;
+			productRefGroup = 3622071327AF34F4003EAC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3622071127AF34F4003EAC24 /* PinCodeScreen */,
+				3622072127AF34FA003EAC24 /* PinCodeScreenTests */,
+				3622072B27AF34FA003EAC24 /* PinCodeScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3622071027AF34F4003EAC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3622071D27AF34F9003EAC24 /* Preview Assets.xcassets in Resources */,
+				3622071A27AF34F9003EAC24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3622072027AF34FA003EAC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3622072A27AF34FA003EAC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3622070E27AF34F4003EAC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363E6F0E27B13FEF0096FF73 /* UserDefault.swift in Sources */,
+				3622071827AF34F4003EAC24 /* PinCodeView.swift in Sources */,
+				3622071627AF34F4003EAC24 /* PinCodeScreenApp.swift in Sources */,
+				363E6F1027B161D00096FF73 /* MainView.swift in Sources */,
+				363E6F0C27B06FF70096FF73 /* PinCodeViewModel.swift in Sources */,
+				363E6F1227B2B0660096FF73 /* ShakeEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3622071E27AF34FA003EAC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3622072727AF34FA003EAC24 /* PinCodeScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3622072827AF34FA003EAC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3622073127AF34FA003EAC24 /* PinCodeScreenUITests.swift in Sources */,
+				3622073327AF34FA003EAC24 /* PinCodeScreenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3622072427AF34FA003EAC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3622071127AF34F4003EAC24 /* PinCodeScreen */;
+			targetProxy = 3622072327AF34FA003EAC24 /* PBXContainerItemProxy */;
+		};
+		3622072E27AF34FA003EAC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3622071127AF34F4003EAC24 /* PinCodeScreen */;
+			targetProxy = 3622072D27AF34FA003EAC24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3622073427AF34FA003EAC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3622073527AF34FA003EAC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3622073727AF34FA003EAC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinCodeScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = PA4RR5KXXR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.net.dnk.PinCodeScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3622073827AF34FA003EAC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinCodeScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = PA4RR5KXXR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.net.dnk.PinCodeScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3622073A27AF34FA003EAC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA4RR5KXXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.net.dnk.PinCodeScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinCodeScreen.app/PinCodeScreen";
+			};
+			name = Debug;
+		};
+		3622073B27AF34FA003EAC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA4RR5KXXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.net.dnk.PinCodeScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinCodeScreen.app/PinCodeScreen";
+			};
+			name = Release;
+		};
+		3622073D27AF34FA003EAC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA4RR5KXXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.net.dnk.PinCodeScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinCodeScreen;
+			};
+			name = Debug;
+		};
+		3622073E27AF34FA003EAC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA4RR5KXXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.net.dnk.PinCodeScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinCodeScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3622070D27AF34F4003EAC24 /* Build configuration list for PBXProject "PinCodeScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3622073427AF34FA003EAC24 /* Debug */,
+				3622073527AF34FA003EAC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3622073627AF34FA003EAC24 /* Build configuration list for PBXNativeTarget "PinCodeScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3622073727AF34FA003EAC24 /* Debug */,
+				3622073827AF34FA003EAC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3622073927AF34FA003EAC24 /* Build configuration list for PBXNativeTarget "PinCodeScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3622073A27AF34FA003EAC24 /* Debug */,
+				3622073B27AF34FA003EAC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3622073C27AF34FA003EAC24 /* Build configuration list for PBXNativeTarget "PinCodeScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3622073D27AF34FA003EAC24 /* Debug */,
+				3622073E27AF34FA003EAC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3622070A27AF34F4003EAC24 /* Project object */;
+}
